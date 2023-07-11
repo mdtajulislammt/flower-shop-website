@@ -1,0 +1,148 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Lato', sans-serif;
+}
+ /* -----------------Header Section start---------------- */
+
+ /* ------Banner Section start-------- */
+.banner-container{
+     background-color:gray;
+     background-image:  linear-gradient(280deg, #e29ead 0%, rgba(56, 45, 45, 0.473) 100%);
+     display: flex;
+     height: 100vh;
+     align-items: center;
+     justify-content: space-between;
+     gap: 97px;
+     color: white;
+}
+
+.banner-content{
+     margin-left: 140px;
+     width: 708px;
+     
+}
+
+.banner-title{
+     /* color: #272727; */
+     font-size: 60px;
+     font-weight: 900;
+}
+.banner-description{
+     /* color: rgba(39, 39, 39, 0.60); */
+     font-size: 16.2px;
+     font-weight: 400; 
+     margin-top: 30px;
+     line-height: 25px;
+}
+.banner-btn{
+     color: #ffffff;
+     font-size: 20px;
+     font-weight: 700;
+     padding: 20px 43px;
+     border-radius: 8px;
+     background: #E55473; 
+     border: 0;
+     margin-top: 30px;
+}
+
+ .banner-flower-img img{
+     margin-top: 35px;
+     margin-right: 140px;
+ }
+
+
+ /* -------------------feature-flower-section -start------------------------ */
+.feature-container{
+    text-align: center;
+ }
+ .feature-header{
+     margin-top: 118px;
+ }
+ .feature-title{
+     color: #272727;
+     font-size: 40px;
+     font-weight: 800;
+ }
+ .feature-description{
+     color: rgba(39, 39, 39, 0.60);
+     font-size: 18px;
+     line-height: 30px;
+ }
+.feature-content{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+      margin-left: 240px;
+     margin-right: 240px;
+}
+
+.feature-box img{
+     max-width: 700px;
+     background-color: #e29ead;
+     padding: 117px 47px 0px 47px;
+     margin: 48px 20px 76px;
+     border-radius: 300px 300px 0px 0px;
+     width: 310px;
+     height: 380px;
+     
+     
+}
+.feature-box .feature-box-1{
+     background-color: rgba(167, 33, 98, 0.15);
+     
+
+
+}
+.feature-box .feature-box-2{
+     background-color: rgba(5, 151, 160, 0.15);
+     padding: 110px 47px 51px 47px;
+}
+.feature-box .feature-box-3{
+     background-color: rgba(71, 125, 17, 0.15);
+     
+     
+
+
+}
+.feature-box h4{
+     margin-top: -60px;
+     color: #272727;
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 35px;
+     text-decoration-line: underline;
+     margin-bottom: 128px;
+
+}
+ 
+
+.service-container{
+     width: 1040px;
+     height: 250px;
+     margin: 0 auto;
+     background-color:rgba(39, 39, 39, 0.05) ;
+     border-radius: 8px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     margin-bottom: 128px;
+
+}
+.service-content img{
+     width: 70px;
+     margin-bottom: 24px;
+}
+.service-content p{
+     color: rgba(39, 39, 39, 0.80);
+     font-size: 18px;
+     font-weight: 600;
+}
+.service-content{
+     margin: 20px;
+     padding: 20px;
+
+}
+ /* -------------------feature-flower-section -start------------------------ */
