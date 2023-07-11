@@ -35,6 +35,8 @@
      font-weight: 400; 
      margin-top: 30px;
      line-height: 25px;
+     
+     
 }
 .banner-btn{
      color: #ffffff;
@@ -145,4 +147,110 @@
      padding: 20px;
 
 }
- /* -------------------feature-flower-section -start------------------------ */
+ /* -------------------feature-flower-section -End------------------------ */
+
+ /* -------------------Discount-section -start------------------------ */
+
+ .discount-container{
+     background-image:  linear-gradient(280deg, #e29ead 0%, rgba(56, 45, 45, 0.473) 100%);
+     display: flex;
+     justify-content:center ;
+     align-items: center;
+     text-align: center;
+     gap: 150px;
+     height: 80vh;
+ }
+ .discount-content{
+     margin-top: 130px;
+ }
+ .discount-title{
+     color: #272727;
+     font-size: 40px;
+     font-weight: 800;
+     margin-bottom: 24px;
+
+ }
+.discount-description{
+     color: rgba(39, 39, 39, 0.60);
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 30px;
+
+ }
+.discount-title span{
+     color:#f11747 ;
+}
+.discount-image{
+     margin-top: 120px;
+     margin-bottom: 100px;
+}
+
+
+
+/* -------------------Discount-section -End------------------------ */
+
+
+/* -------------------Social-section -Start------------------------ */
+.social-container{
+     
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     gap: 24px;
+     
+}
+.social-content img{
+   width:250px;
+     height: 250px; 
+     background-color: #E55473; 
+     margin-top: 48px;
+     margin-bottom: 128px;
+}
+.social-header{
+     text-align: center;
+     margin-top: 128px;
+}
+.social-title{
+     margin-bottom: 24px;
+}
+/* -------------------Social-section -End------------------------ */
+/* -------------------Review-section -Start------------------------ */
+
+.review-header{
+     text-align: center;
+     width: 100%;
+     background-color: #ffd6df;
+   
+}
+.review-header h1{
+     font-size: 40px;
+     font-weight: 800;  
+     padding: 30px;
+}
+.review-header h1> span{
+     color: #f11747;
+     
+}
+
+.review-container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.review-content{
+     border: 1px solid;
+}
+.profile-image{
+     width: 100px;
+     
+}
+/* -------------------Review-section -End------------------------ */
+
+
+
+
+
+
+
+
+
