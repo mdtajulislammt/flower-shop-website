@@ -3,15 +3,20 @@
      padding: 0;
      box-sizing: border-box;
      font-family: 'Lato', sans-serif;
+     
+}
+body{
+     width: 100%;
 }
  /* -----------------Header Section start---------------- */
 
  /* ------Banner Section start-------- */
 .banner-container{
      background-color:gray;
-     background-image:  linear-gradient(280deg, #e29ead 0%, rgba(56, 45, 45, 0.473) 100%);
+     background-image:  linear-gradient(280deg, #e29ead 0%, rgba(114, 93, 93, 0.329) 100%);
      display: flex;
      height: 100vh;
+     width: 100%;
      align-items: center;
      justify-content: space-between;
      gap: 97px;
@@ -25,12 +30,11 @@
 }
 
 .banner-title{
-     /* color: #272727; */
      font-size: 60px;
      font-weight: 900;
 }
 .banner-description{
-     /* color: rgba(39, 39, 39, 0.60); */
+     color: rgba(255, 253, 253, 0.8);
      font-size: 16.2px;
      font-weight: 400; 
      margin-top: 30px;
@@ -47,6 +51,12 @@
      background: #E55473; 
      border: 0;
      margin-top: 30px;
+     cursor: pointer;
+}
+.banner-btn:hover{
+
+     color: #E55473;
+     background: #ffffff;  
 }
 
  .banner-flower-img img{
@@ -61,11 +71,13 @@
  }
  .feature-header{
      margin-top: 118px;
+
  }
  .feature-title{
      color: #272727;
      font-size: 40px;
      font-weight: 800;
+     margin-bottom: 20px;
  }
  .feature-description{
      color: rgba(39, 39, 39, 0.60);
@@ -116,7 +128,11 @@
      line-height: 35px;
      text-decoration-line: underline;
      margin-bottom: 128px;
+     cursor: pointer;
 
+}
+.feature-box h4:hover{
+     color: #E55473;
 }
  /* -------------------feature-flower-section -End------------------------ */
 
@@ -154,7 +170,7 @@
  /* -------------------Discount-section -start------------------------ */
 
  .discount-container{
-     background-image:  linear-gradient(280deg, #e29ead 0%, rgba(56, 45, 45, 0.473) 100%);
+     background-image:  linear-gradient(280deg, #e29ead 0%, rgba(61, 54, 54, 0.473) 100%);
      display: flex;
      justify-content:center ;
      align-items: center;
@@ -166,17 +182,15 @@
      margin-top: 130px;
  }
  .discount-title{
-     color: #272727;
+     color: #ffffff;
      font-size: 40px;
      font-weight: 800;
      margin-bottom: 24px;
 
  }
 .discount-description{
-     color: rgba(39, 39, 39, 0.60);
-     font-size: 18px;
-     font-weight: 400;
-     line-height: 30px;
+     color: rgb(236, 229, 229);
+     
 
  }
 .discount-title span{
@@ -202,11 +216,16 @@
      
 }
 .social-content img{
-   width:250px;
+     width:250px;
      height: 250px; 
-     background-color: #E55473; 
      margin-top: 48px;
      margin-bottom: 128px;
+     border-radius: 10px;
+     
+}
+.social-content img:hover{
+     box-shadow:  0px 2px 10px 0px ;
+     
 }
 .social-header{
      text-align: center;
@@ -239,18 +258,20 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
-     gap: 20px;
-     margin: 0px 80px 0px 80px;
+     gap: 30px;
+     margin:0 auto;
      margin-bottom: 120px;
+     width: 80%;
      
      
 }
 .review-content{
      box-shadow: 0px 2px 10px 0px;
-     width: 500px;
-     height: 300px;
+     width: 1400px;
+     height: 350px;
      padding: 10px;
      border-radius: 10px;
+     margin: 0 auto;
      
      
 
@@ -278,9 +299,10 @@
 
 }
 .review-icon{
+     margin-left: 149px;
+     
     position: relative;
-    left: 39%;
-    top: -10%;
+    top: -7%;
     
     
 }
@@ -295,6 +317,34 @@ color: gold;
      background-color: #eec6ce;
      padding: 10px;
      border-radius: 10px;
+}
+
+.like-icon{
+     display: flex;
+     justify-content: right;
+     margin: 10px;
+     font-size: 15px;
+     gap: 5px;
+     cursor: pointer;
+
+}
+.fa-thumbs-down {
+     background-color: #eec6ce;
+     padding: 10px 30px;
+     border-radius: 5px;
+}
+.fa-thumbs-up{
+     background-color: #eec6ce;
+     padding: 10px 30px;
+     border-radius: 5px;
+}
+.fa-thumbs-down:hover{
+     color: #E55473;
+     background-color: #000000;
+}
+ .fa-thumbs-up:hover{
+     color: #E55473;
+     background-color: #000000;
 }
 /* -------------------Review-section -End------------------------ */
 
@@ -340,7 +390,7 @@ color: gold;
      padding: 30px;
      height: 50px;
      margin-right: 16px;
-     border: 0;
+     border: 2px solid #E55473 ;
      border-radius: 5px;
 }
 .deal-btn{
@@ -354,6 +404,11 @@ color: gold;
     
     
 }
+.deal-btn:hover{
+     background-color: #cebdbd;
+     color:#000000;
+}
+
 
 /* -------------------Deal section End------------------------ */
 
